@@ -29,7 +29,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-        </plugins>
+        
 		<plugin>
 			<artifactId>jib-maven-plugin</artifactId>
 			<groupId>com.google.cloud.tools</groupId>
@@ -42,7 +42,7 @@
 					<image>${docker.image.prefix}/${project.artifactId}</image>
 				</to>
 			</configuration>
-		</plugin>
+		</plugin></plugins>
     </build>
 
     <dependencies>
